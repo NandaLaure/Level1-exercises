@@ -7,15 +7,15 @@
 
 .main{
     height: 100vh;
-    background-color: aquamarine;
-    background: url('./Assets:images/nice-bg.png');
+    background-color: aqua;
+    background: url('./Assets:images/hero-bg.jpg');
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .logo{
-    color: orangered;
+    color: aqua;
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -31,9 +31,9 @@
     width: 200px;
     height: 40px;
     background: transparent;
-    border: 1px solid turquoise;
+    border: 1px solid aqua;
     margin-top: 13px;
-    color: wheat;
+    color: white;
     border-right: none;
     font-size: 16px;
     float: left;
@@ -45,8 +45,8 @@
 .btn{
     width: 100px;
     height: 40px;
-    background: turquoise;
-    border: 2px solid turquoise;
+    background: aqua;
+    border: 2px solid aqua;
     margin-top: 13px;
     color: white;
     font-size: 15px;
@@ -80,16 +80,16 @@
 
 .content h1{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
+    font-size: 60px;
     padding-left: 20px;
-    margin-top: 9px;
+    margin-top: 4px;
     letter-spacing: normal;
 }
 
 .content .cn{
     width: 160px;
     height: 40px;
-    background: turquoise;
+    background: aqua;
     border: none;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -106,7 +106,12 @@
 }
 
 .cn:hover{
-    background-color: azure;
+    background-color: white;
+}
+
+.content span{
+    color: aqua;
+    font-size: 60px;
 }
 
 .form{
@@ -123,7 +128,7 @@
     width: 220px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: orangered;
+    color: aqua;
     font-size: 22px;
     background-color: white;
     border-radius: 10px;
@@ -135,7 +140,7 @@
     width: 240px;
     height: 35px;
     background: transparent;
-    border-bottom: 1px solid orangered;
+    border-bottom: 1px solid aqua;
     border-left: none;
     border-right: none;
     border-top: none;
@@ -158,7 +163,7 @@
 .btnn{
     width: 240px;
     height: 40px;
-    background: orangered;
+    background: aqua;
     border: none;
     margin-top: 30px;
     font-size: 18px;
@@ -169,7 +174,7 @@
 
 .btnn:hover{
     background: white;
-    color: orangered;
+    color: aqua;
 }
 
 .btnn a{
@@ -187,7 +192,7 @@
 
 .form .link a{
     text-decoration: none;
-    color: orangered;
+    color: aqua;
 }
 
 .liw{
@@ -202,7 +207,7 @@
 }
 
 .icon ion-icon{
-    color: white;
+    color: aqua;
     font-size: 30px;
     padding-left: 14px;
     padding-top: 5px;
@@ -210,5 +215,5 @@
 }
 
 .icon ion-icon:hover{
-    color: orangered;
+    color: white;
 }
