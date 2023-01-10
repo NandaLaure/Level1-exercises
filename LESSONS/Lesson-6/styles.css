@@ -1,0 +1,35 @@
+/* CSS RESET */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 6px 8px;
+}
+
+header#header-section{
+    height: 100vh;
+    background-color: linear(rgba(34,89,133,0.7), rgba(61,54,90,0.7));
+    background: url('./Assets/images/hero_bg.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header#header-section nav#navbar-container ul li.nav-items{
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    margin: 5px;
+}
+
+header#header-section nav#navbar-container ul li.nav-items a.nav-link{
+    color: snow;
+    text-decoration: none;
+    background-color: turquoise;
+    padding: 2px 4px;
+    border-width: 7px;
+}
